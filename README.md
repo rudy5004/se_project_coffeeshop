@@ -11,6 +11,8 @@ This is the second project of the Software Engineering program at TripleTen. It 
 - A custom form
 - CSS animation and transform
 
+
 ## Plan on improving the project
 
-Add your ideas here :)
+Add your ideas here : Continue to study flexbox so I can work at a faster pace. 
+
