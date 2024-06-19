@@ -1,0 +1,89 @@
+@keyframes pulsate{
+    0% {opacity: 0;}   
+    50% {opacity: .6;}
+    100% {transform: scale(1.25); opacity: 0;}
+    }
+
+
+.about{
+z-index: 3;
+background-color: #0A2850;
+max-height: 482px;
+height: 100vh;
+padding: 0px 80px 173px 0px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+display: flex;
+justify-content: space-between;
+position: relative;
+overflow: hidden;
+
+}
+.about__title{
+z-index: 2;
+max-width: 251px;
+font-family: "Inter", Arial, sans-serif;
+font-weight: 500;
+font-size: 44px;
+line-height: 52px;
+margin-top: 100px;
+margin-bottom: 0px;
+margin-left: 80px;
+margin-right: 0px;
+color: #fff
+
+}
+.about__content{
+max-width: 660px;
+margin-top: 119px;
+margin-bottom: 0px;
+font-family: "Noto Serif", 'Times New Roman', serif;
+font-size: 20px;
+line-height: 30px;
+color: #fff;
+}
+
+.about__paragraph{
+
+}
+
+.about__paragraph_span_spacing{
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+}
+
+.about__paragraph_span_spacing:last-child
+{
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+.about__circle {
+z-index: 1;
+width: 426px;
+height: 426px;
+position: absolute;
+top: -152px;
+left: -129px;
+background: #2f80ed;
+border-radius: 50%;
+}
+
+.about__circle_animation_blurred {
+z-index: 1;
+width: 426px;
+height: 426px;
+position: absolute;
+top: -152px;
+left: -129px;
+background: #2f80ed;
+border-radius: 50%;
+animation: pulsate 1.3s ease-in-out 0s infinite;
+}
+
+    
+
+
