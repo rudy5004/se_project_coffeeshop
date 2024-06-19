@@ -8,7 +8,7 @@
     <meta name="keywords" content="Coffee, coding, caffine, TripleEleven haha">
     <title>Coffee Shop</title>
     <link rel="stylesheet" type="text/css" href="./pages/index.css">
-    <link rel="shortcut icon" type="image/x-icon"   href="/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon"   href="./favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -41,15 +41,13 @@
             </p>
               <img class="header__image" src="./images/inside_coffee_shop.png" alt="inside the coffee shop pic">
             <div class="header__footer">
-              <div class="header__paragraph">
-                  <ul class="header__paragraph-list">
-                    <li class="header__paragraph-list-item">Hours</li>
-                    <li class="header__paragraph-list-item">Monday-Friday (10:00-19:00)</li>
-                    <li class="header__paragraph-list-item">Saturday-Sunday (11:00-18:)</li>
-                  </ul>
-                  <p class="header__paragraph-address"> 200 Success Avenue, The Town of Triple Peaks </p>
-                </div>
+              <div class="header__hours">
+                <p class="header__paragraph">Hours</p>
+                <p class="header__paragraph">Monday - Friday (10:00 - 19:00) </p>
+                <p class="header__paragraph">Saturday-Sunday (11:00-18:00) </p>
               </div>
+              <p class="header__paragraph">200 Success Avenue, The Town of Practicum </p>
+            </div>
         </header>
         <main class="content">
           <section id=recipes class="recipes">
@@ -58,15 +56,16 @@
             <div class="recipes__videos">
             <div>
               <iframe class="recipes__iframe" src="https://www.youtube.com/embed/j6VlT_jUVPc" title="The Ultimate AeroPress Technique (Episode #3)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              <p class="recipes__video-captain">
-                <span class="recipes__video-captain recipes__video-captain_syntex_span-left"> Aeropress recipe</span>
-                <span class="recipes__video-captain recipes__video-captain_syntex_span-right"> ~5min</span></p>
+              <p class="recipes__video-caption">
+                <span> Aeropress recipe</span>
+                <span> ~5min</span>
+              </p>
             </div>
             <div>
               <iframe class="recipes__iframe" src="https://www.youtube.com/embed/st571DYYTR8" title="The Ultimate French Press Technique" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              <p class="recipes__video-captain">
-                <span class="recipes__video-captain recipes__video-captain_syntex_span-left">Aeropress recipe </span>
-                <span class="recipes__video-captain recipes__video-captain_syntex_span-right">~5min</span></p>
+              <p class="recipes__video-caption">
+                <span>Aeropress recipe </span>
+                <span>~5min</span></p>
             </div>
             </div>
           </section>
@@ -108,7 +107,7 @@
                     class="form__input"
                     required/>
                   <button type="submit" value="submit" class="form__button">Book a table</button>
-                  <label for="checkbox"  class="form__label form__label_checkbox_spacing">
+                  <label for="checkbox"  class="form__label form__label_type_checkbox">
                     <input 
                     type="checkbox"
                     id="checkbox"
@@ -222,15 +221,12 @@
               About the cofee shop
             </h2>
             <div class="about__content">
-              <p class="about__paragraph">
-                <span class="about__paragraph about__paragraph_span_spacing">
-                Our coffee shop is located in the Triple Peaks Library. It features 6 tables and free WiFi.</span>
-                <span class="about__paragraph about__paragraph_span_spacing">
-                Our main mission is keeping guests cozy and energized.</span>
-                <span class="about__paragraph about__paragraph_span_spacing">
-                Besides that, we try to reduce our environmental impact — so we don't sell single-use cups. But you can buy one of our reusable cups!
-                </span>
-              </p>
+                <p class="about__paragraph about__paragraph_span_spacing">
+                Our coffee shop is located in the Triple Peaks Library. It features 6 tables and free WiFi.</p>
+                <p class="about__paragraph about__paragraph_span_spacing">
+                Our main mission is keeping guests cozy and energized.</p>
+                <p class="about__paragraph about__paragraph_span_spacing">
+                Besides that, we try to reduce our environmental impact — so we don't sell single-use cups. But you can buy one of our reusable cups!</p>
             </div>
             <div class="about__circle">
             </div>
