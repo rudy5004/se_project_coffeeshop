@@ -29,6 +29,7 @@
     font-family: "Noto Serif", 'Times New Roman', serif;
     font-size: 60px;
     line-height: 72px;
+    font-weight: normal;
     
 }
 
@@ -54,7 +55,7 @@
 
 .header__footer{
     margin-top: auto;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     margin-right: 40px;
     margin-left: 40px;
     display: flex;
