@@ -4,7 +4,7 @@
     box-sizing: border-box;
     display: flex;
     border: 0;
-    max-width: 385px;
+    max: 385px;
 }
 
 .form__fieldset{
